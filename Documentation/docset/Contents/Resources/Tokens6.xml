@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ExerciseCompletedViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ExerciseCompletedViewController</TokenIdentifier>
+			<Abstract type="html">This class is an implementation for the view controller screen Exercsise comleted
+shwon after an exercise has been completed. It will show the user how many words are guessed correctly
+and how many are wrong.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ExerciseCompletedViewController/setNumberOfCorect:</TokenIdentifier>
+			<Abstract type="html">Number of the correctly guessed words in the exercise.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numberOfCorect</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfCorect</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ExerciseCompletedViewController/numberOfCorect</TokenIdentifier>
+			<Abstract type="html">Number of the correctly guessed words in the exercise.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numberOfCorect</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfCorect</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ExerciseCompletedViewController/numberOfCorect</TokenIdentifier>
+			<Abstract type="html">Number of the correctly guessed words in the exercise.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numberOfCorect</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfCorect</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ExerciseCompletedViewController/setNumbeOfWrong:</TokenIdentifier>
+			<Abstract type="html">Number of the wrongly guessed words in the exersice.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numbeOfWrong</Declaration>
+			
+			
+			<Anchor>//api/name/numbeOfWrong</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ExerciseCompletedViewController/numbeOfWrong</TokenIdentifier>
+			<Abstract type="html">Number of the wrongly guessed words in the exersice.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numbeOfWrong</Declaration>
+			
+			
+			<Anchor>//api/name/numbeOfWrong</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ExerciseCompletedViewController/numbeOfWrong</TokenIdentifier>
+			<Abstract type="html">Number of the wrongly guessed words in the exersice.</Abstract>
+			<DeclaredIn>ExerciseCompletedViewController.h</DeclaredIn>
+			
+			<Declaration>@property int numbeOfWrong</Declaration>
+			
+			
+			<Anchor>//api/name/numbeOfWrong</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

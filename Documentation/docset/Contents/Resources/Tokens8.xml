@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Word.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Word</TokenIdentifier>
+			<Abstract type="html">This class represents a word to be learned. It contains information about the word, its translation and its learning status.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setLastdaynr:</TokenIdentifier>
+			<Abstract type="html">lastdaynr represents the number of the last learning day. On which the word lastly was trained.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *lastdaynr</Declaration>
+			
+			
+			<Anchor>//api/name/lastdaynr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/lastdaynr</TokenIdentifier>
+			<Abstract type="html">lastdaynr represents the number of the last learning day. On which the word lastly was trained.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *lastdaynr</Declaration>
+			
+			
+			<Anchor>//api/name/lastdaynr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/lastdaynr</TokenIdentifier>
+			<Abstract type="html">lastdaynr represents the number of the last learning day. On which the word lastly was trained.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *lastdaynr</Declaration>
+			
+			
+			<Anchor>//api/name/lastdaynr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setLevel:</TokenIdentifier>
+			<Abstract type="html">The learning level for the word. 7 is the lowest level and 1 is the highest level.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/level</TokenIdentifier>
+			<Abstract type="html">The learning level for the word. 7 is the lowest level and 1 is the highest level.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/level</TokenIdentifier>
+			<Abstract type="html">The learning level for the word. 7 is the lowest level and 1 is the highest level.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setNr:</TokenIdentifier>
+			<Abstract type="html">The order number of the word. It defines the order in which the words are taken for learning.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *nr</Declaration>
+			
+			
+			<Anchor>//api/name/nr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/nr</TokenIdentifier>
+			<Abstract type="html">The order number of the word. It defines the order in which the words are taken for learning.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *nr</Declaration>
+			
+			
+			<Anchor>//api/name/nr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/nr</TokenIdentifier>
+			<Abstract type="html">The order number of the word. It defines the order in which the words are taken for learning.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *nr</Declaration>
+			
+			
+			<Anchor>//api/name/nr</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setStatus:</TokenIdentifier>
+			<Abstract type="html">The learning status of the word (in progress, learned, new).</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/status</TokenIdentifier>
+			<Abstract type="html">The learning status of the word (in progress, learned, new).</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/status</TokenIdentifier>
+			<Abstract type="html">The learning status of the word (in progress, learned, new).</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setTranslation:</TokenIdentifier>
+			<Abstract type="html">The translation of the word.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/translation</TokenIdentifier>
+			<Abstract type="html">The translation of the word.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/translation</TokenIdentifier>
+			<Abstract type="html">The translation of the word.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *translation</Declaration>
+			
+			
+			<Anchor>//api/name/translation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/setWord:</TokenIdentifier>
+			<Abstract type="html">The word itself.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *word</Declaration>
+			
+			
+			<Anchor>//api/name/word</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/word</TokenIdentifier>
+			<Abstract type="html">The word itself.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *word</Declaration>
+			
+			
+			<Anchor>//api/name/word</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Word/word</TokenIdentifier>
+			<Abstract type="html">The word itself.</Abstract>
+			<DeclaredIn>Word.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *word</Declaration>
+			
+			
+			<Anchor>//api/name/word</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/guessedCorrectly:</TokenIdentifier>
+			<Abstract type="html">This method updates the learning status of the word after a correct guess.</Abstract>
+			<DeclaredIn>Word+Util.h</DeclaredIn>
+			
+			<Declaration>- (void)guessedCorrectly:(NSNumber *)dayNr</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dayNr</Name>
+					<Abstract type="html">The day of the guess.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/guessedCorrectly:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Word/guessedWrongly:</TokenIdentifier>
+			<Abstract type="html">This method updates the learning status of the word after a wrong guess.</Abstract>
+			<DeclaredIn>Word+Util.h</DeclaredIn>
+			
+			<Declaration>- (void)guessedWrongly:(NSNumber *)dayNr</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dayNr</Name>
+					<Abstract type="html">the day of the wrong guess.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/guessedWrongly:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

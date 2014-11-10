@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WordPuzzleViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WordPuzzleViewController</TokenIdentifier>
+			<Abstract type="html">This view controller implements the functionality of guess words exercise</Abstract>
+			<DeclaredIn>WordPuzzleViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordPuzzleViewController/setDatabase:</TokenIdentifier>
+			<Abstract type="html">The app database, needs to be set when creating the controller</Abstract>
+			<DeclaredIn>WordPuzzleViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordPuzzleViewController/database</TokenIdentifier>
+			<Abstract type="html">The app database, needs to be set when creating the controller</Abstract>
+			<DeclaredIn>WordPuzzleViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordPuzzleViewController/database</TokenIdentifier>
+			<Abstract type="html">The app database, needs to be set when creating the controller</Abstract>
+			<DeclaredIn>WordPuzzleViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/iLangDatabase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/iLangDatabase</TokenIdentifier>
+			<Abstract type="html">This class implement the database of the application. It contains functionality to create and fill it with initial data.
+It implements various database requests.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/setDocument:</TokenIdentifier>
+			<Abstract type="html">Reference to the CoreData document.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIManagedDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/document</TokenIdentifier>
+			<Abstract type="html">Reference to the CoreData document.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIManagedDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/iLangDatabase/document</TokenIdentifier>
+			<Abstract type="html">Reference to the CoreData document.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIManagedDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/setManagedObjectContext:</TokenIdentifier>
+			<Abstract type="html">Reference to the managed object context.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSManagedObjectContext *managedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/managedObjectContext</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/managedObjectContext</TokenIdentifier>
+			<Abstract type="html">Reference to the managed object context.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSManagedObjectContext *managedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/managedObjectContext</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/iLangDatabase/managedObjectContext</TokenIdentifier>
+			<Abstract type="html">Reference to the managed object context.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSManagedObjectContext *managedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/managedObjectContext</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/setInCloud:</TokenIdentifier>
+			<Abstract type="html">True if the database is in cloud and false if it&apos;s local.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property bool inCloud</Declaration>
+			
+			
+			<Anchor>//api/name/inCloud</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/inCloud</TokenIdentifier>
+			<Abstract type="html">True if the database is in cloud and false if it&apos;s local.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property bool inCloud</Declaration>
+			
+			
+			<Anchor>//api/name/inCloud</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/iLangDatabase/inCloud</TokenIdentifier>
+			<Abstract type="html">True if the database is in cloud and false if it&apos;s local.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>@property bool inCloud</Declaration>
+			
+			
+			<Anchor>//api/name/inCloud</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/iLangDatabase/create</TokenIdentifier>
+			<Abstract type="html">A class method to create the database.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>+ (iLangDatabase *)create</Declaration>
+			
+			<ReturnValue><Abstract type="html">The created database.</Abstract></ReturnValue>
+			<Anchor>//api/name/create</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/openWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Opens the database if it exists. Otherwise it will create a new local database with initial data from plist.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (void)openWithCompletionHandler:(void ( ^ ) ( ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">A handler to be executed after openning the database.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/openWithCompletionHandler:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/maxWordNumber</TokenIdentifier>
+			<Abstract type="html">Finds the maximum word number in the database</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (int)maxWordNumber</Declaration>
+			
+			<ReturnValue><Abstract type="html">The maximum word number, 0 if the database is empty.</Abstract></ReturnValue>
+			<Anchor>//api/name/maxWordNumber</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/numberOfLearnedWords</TokenIdentifier>
+			<Abstract type="html">Determines the number of words with the status learned.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)numberOfLearnedWords</Declaration>
+			
+			<ReturnValue><Abstract type="html">number of words with the status learned.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfLearnedWords</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/wordsInProgress</TokenIdentifier>
+			<Abstract type="html">Finds all words with status in progress.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)wordsInProgress</Declaration>
+			
+			<ReturnValue><Abstract type="html">An array of words with status in progress.</Abstract></ReturnValue>
+			<Anchor>//api/name/wordsInProgress</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/wordsToBeTrainedToday</TokenIdentifier>
+			<Abstract type="html">Finds all words that have to be trained today.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)wordsToBeTrainedToday</Declaration>
+			
+			<ReturnValue><Abstract type="html">An array of words to be trained today.</Abstract></ReturnValue>
+			<Anchor>//api/name/wordsToBeTrainedToday</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/addWordsInProgress:</TokenIdentifier>
+			<Abstract type="html">Adds more words to be learned.</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (void)addWordsInProgress:(int)numberToAdd</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numberToAdd</Name>
+					<Abstract type="html">number of words to be added to learn..</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addWordsInProgress:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/iLangDatabase/getDayInfo</TokenIdentifier>
+			<Abstract type="html">Returns information about the current day
+return information about the current day</Abstract>
+			<DeclaredIn>iLangDatabase.h</DeclaredIn>
+			
+			<Declaration>- (DayInfo *)getDayInfo</Declaration>
+			
+			
+			<Anchor>//api/name/getDayInfo</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

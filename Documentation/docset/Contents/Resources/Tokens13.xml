@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/iLangNavigationController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/iLangNavigationController</TokenIdentifier>
+			<Abstract type="html">This class is the implementation of the main navigation controller of the application.
+This class defines the ration behavior of the application.</Abstract>
+			<DeclaredIn>iLangNavigationController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

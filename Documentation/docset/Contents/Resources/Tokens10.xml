@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WordListViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WordListViewController</TokenIdentifier>
+			<Abstract type="html">This class is the view controller for the screen which displays the list of words in the database
+and it alows the user to edit it.</Abstract>
+			<DeclaredIn>WordListViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListViewController/setDatabase:</TokenIdentifier>
+			<Abstract type="html">Database of the application. It must be set while creating the controller.</Abstract>
+			<DeclaredIn>WordListViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListViewController/database</TokenIdentifier>
+			<Abstract type="html">Database of the application. It must be set while creating the controller.</Abstract>
+			<DeclaredIn>WordListViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordListViewController/database</TokenIdentifier>
+			<Abstract type="html">Database of the application. It must be set while creating the controller.</Abstract>
+			<DeclaredIn>WordListViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

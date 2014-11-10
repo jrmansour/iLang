@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CoreDataTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CoreDataTableViewController</TokenIdentifier>
+			<Abstract type="html">This class fetches data based on a specified CoreData request for the table view and updates it automatically
+after changes in the CoreData database.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/setFetchedResultsController:</TokenIdentifier>
+			<Abstract type="html">The controller (this class fetches nothing if this is not set).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController</Declaration>
+			
+			
+			<Anchor>//api/name/fetchedResultsController</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/fetchedResultsController</TokenIdentifier>
+			<Abstract type="html">The controller (this class fetches nothing if this is not set).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController</Declaration>
+			
+			
+			<Anchor>//api/name/fetchedResultsController</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CoreDataTableViewController/fetchedResultsController</TokenIdentifier>
+			<Abstract type="html">The controller (this class fetches nothing if this is not set).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController</Declaration>
+			
+			
+			<Anchor>//api/name/fetchedResultsController</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/setTableView:</TokenIdentifier>
+			<Abstract type="html">The table view</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/tableView</TokenIdentifier>
+			<Abstract type="html">The table view</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CoreDataTableViewController/tableView</TokenIdentifier>
+			<Abstract type="html">The table view</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/performFetch</TokenIdentifier>
+			<Abstract type="html">Causes the fetchedResultsController to refetch the data.
+You almost certainly never need to call this.
+The NSFetchedResultsController class observes the context
+(so if the objects in the context change, you do not need to call performFetch
+since the NSFetchedResultsController will notice and update the table automatically).
+This will also automatically be called if you change the fetchedResultsController
+property.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)performFetch</Declaration>
+			
+			
+			<Anchor>//api/name/performFetch</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/setSuspendAutomaticTrackingOfChangesInManagedObjectContext:</TokenIdentifier>
+			<Abstract type="html">Turn this on before making any changes in the managed object context that
+are a one-for-one result of the user manipulating rows directly in the table view.
+Such changes cause the context to report them (after a brief delay),
+and normally our fetchedResultsController would then try to update the table,
+but that is unnecessary because the changes were made in the table already (by the user)
+so the fetchedResultsController has nothing to do and needs to ignore those reports.
+Turn this back off after the user has finished the change.
+Note that the effect of setting this to NO actually gets delayed slightly
+so as to ignore previously-posted, but not-yet-processed context-changed notifications,
+therefore it is fine to set this to YES at the beginning of, e.g., tableView:moveRowAtIndexPath:toIndexPath:,
+and then set it back to NO at the end of your implementation of that method.
+It is not necessary (in fact, not desirable) to set this during row deletion or insertion
+(but definitely for row moves).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL suspendAutomaticTrackingOfChangesInManagedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/suspendAutomaticTrackingOfChangesInManagedObjectContext</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/suspendAutomaticTrackingOfChangesInManagedObjectContext</TokenIdentifier>
+			<Abstract type="html">Turn this on before making any changes in the managed object context that
+are a one-for-one result of the user manipulating rows directly in the table view.
+Such changes cause the context to report them (after a brief delay),
+and normally our fetchedResultsController would then try to update the table,
+but that is unnecessary because the changes were made in the table already (by the user)
+so the fetchedResultsController has nothing to do and needs to ignore those reports.
+Turn this back off after the user has finished the change.
+Note that the effect of setting this to NO actually gets delayed slightly
+so as to ignore previously-posted, but not-yet-processed context-changed notifications,
+therefore it is fine to set this to YES at the beginning of, e.g., tableView:moveRowAtIndexPath:toIndexPath:,
+and then set it back to NO at the end of your implementation of that method.
+It is not necessary (in fact, not desirable) to set this during row deletion or insertion
+(but definitely for row moves).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL suspendAutomaticTrackingOfChangesInManagedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/suspendAutomaticTrackingOfChangesInManagedObjectContext</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CoreDataTableViewController/suspendAutomaticTrackingOfChangesInManagedObjectContext</TokenIdentifier>
+			<Abstract type="html">Turn this on before making any changes in the managed object context that
+are a one-for-one result of the user manipulating rows directly in the table view.
+Such changes cause the context to report them (after a brief delay),
+and normally our fetchedResultsController would then try to update the table,
+but that is unnecessary because the changes were made in the table already (by the user)
+so the fetchedResultsController has nothing to do and needs to ignore those reports.
+Turn this back off after the user has finished the change.
+Note that the effect of setting this to NO actually gets delayed slightly
+so as to ignore previously-posted, but not-yet-processed context-changed notifications,
+therefore it is fine to set this to YES at the beginning of, e.g., tableView:moveRowAtIndexPath:toIndexPath:,
+and then set it back to NO at the end of your implementation of that method.
+It is not necessary (in fact, not desirable) to set this during row deletion or insertion
+(but definitely for row moves).</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL suspendAutomaticTrackingOfChangesInManagedObjectContext</Declaration>
+			
+			
+			<Anchor>//api/name/suspendAutomaticTrackingOfChangesInManagedObjectContext</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/setDebug:</TokenIdentifier>
+			<Abstract type="html">Set to YES to get some debugging output in the console.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property BOOL debug</Declaration>
+			
+			
+			<Anchor>//api/name/debug</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/debug</TokenIdentifier>
+			<Abstract type="html">Set to YES to get some debugging output in the console.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property BOOL debug</Declaration>
+			
+			
+			<Anchor>//api/name/debug</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CoreDataTableViewController/debug</TokenIdentifier>
+			<Abstract type="html">Set to YES to get some debugging output in the console.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property BOOL debug</Declaration>
+			
+			
+			<Anchor>//api/name/debug</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html">To be used for implementation of the corresponding method of UITableViewDataSource.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html">To be used for implementation of the corresponding method of UITableViewDataSource.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/tableView:titleForHeaderInSection:</TokenIdentifier>
+			<Abstract type="html">To be used for implementation of the corresponding method of UITableViewDataSource.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:titleForHeaderInSection:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/tableView:sectionForSectionIndexTitle:atIndex:</TokenIdentifier>
+			<Abstract type="html">To be used for implementation of the corresponding method of UITableViewDataSource.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:sectionForSectionIndexTitle:atIndex:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CoreDataTableViewController/sectionIndexTitlesForTableView:</TokenIdentifier>
+			<Abstract type="html">To be used for implementation of the corresponding method of UITableViewDataSource.</Abstract>
+			<DeclaredIn>CoreDataTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/sectionIndexTitlesForTableView:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

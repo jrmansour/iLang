@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WordListCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WordListCell</TokenIdentifier>
+			<Abstract type="html">This class implements a custom class for the word list table.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/setNrLabel:</TokenIdentifier>
+			<Abstract type="html">A label displaying the number of a word in the list.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nrLabel</Declaration>
+			
+			
+			<Anchor>//api/name/nrLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/nrLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the number of a word in the list.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nrLabel</Declaration>
+			
+			
+			<Anchor>//api/name/nrLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordListCell/nrLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the number of a word in the list.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nrLabel</Declaration>
+			
+			
+			<Anchor>//api/name/nrLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/setWordLabel:</TokenIdentifier>
+			<Abstract type="html">A label displaying the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *wordLabel</Declaration>
+			
+			
+			<Anchor>//api/name/wordLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/wordLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *wordLabel</Declaration>
+			
+			
+			<Anchor>//api/name/wordLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordListCell/wordLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *wordLabel</Declaration>
+			
+			
+			<Anchor>//api/name/wordLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/setTranslationLabel:</TokenIdentifier>
+			<Abstract type="html">A label displaying the translation of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *translationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/translationLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/translationLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the translation of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *translationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/translationLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordListCell/translationLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the translation of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *translationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/translationLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/setStatusLabel:</TokenIdentifier>
+			<Abstract type="html">A label displaying the learning status of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *statusLabel</Declaration>
+			
+			
+			<Anchor>//api/name/statusLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WordListCell/statusLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the learning status of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *statusLabel</Declaration>
+			
+			
+			<Anchor>//api/name/statusLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WordListCell/statusLabel</TokenIdentifier>
+			<Abstract type="html">A label displaying the learning status of the word.</Abstract>
+			<DeclaredIn>WordListCell.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *statusLabel</Declaration>
+			
+			
+			<Anchor>//api/name/statusLabel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

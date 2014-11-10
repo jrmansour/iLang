@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MainViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MainViewController</TokenIdentifier>
+			<Abstract type="html">This class is the implementation for the main screen in the application.</Abstract>
+			<DeclaredIn>MainViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MainViewController/setDatabase:</TokenIdentifier>
+			<Abstract type="html">The application database must be sett while creating the controller.</Abstract>
+			<DeclaredIn>MainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MainViewController/database</TokenIdentifier>
+			<Abstract type="html">The application database must be sett while creating the controller.</Abstract>
+			<DeclaredIn>MainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MainViewController/database</TokenIdentifier>
+			<Abstract type="html">The application database must be sett while creating the controller.</Abstract>
+			<DeclaredIn>MainViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) iLangDatabase *database</Declaration>
+			
+			
+			<Anchor>//api/name/database</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

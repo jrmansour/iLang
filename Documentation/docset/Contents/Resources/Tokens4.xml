@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DayInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DayInfo</TokenIdentifier>
+			<Abstract type="html">This class contains information about the current learning day.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DayInfo/setDate:</TokenIdentifier>
+			<Abstract type="html">The date on which the current learning day began.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DayInfo/date</TokenIdentifier>
+			<Abstract type="html">The date on which the current learning day began.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DayInfo/date</TokenIdentifier>
+			<Abstract type="html">The date on which the current learning day began.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DayInfo/setDaynr:</TokenIdentifier>
+			<Abstract type="html">The number identifiying the current day.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *daynr</Declaration>
+			
+			
+			<Anchor>//api/name/daynr</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DayInfo/daynr</TokenIdentifier>
+			<Abstract type="html">The number identifiying the current day.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *daynr</Declaration>
+			
+			
+			<Anchor>//api/name/daynr</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DayInfo/daynr</TokenIdentifier>
+			<Abstract type="html">The number identifiying the current day.</Abstract>
+			<DeclaredIn>DayInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *daynr</Declaration>
+			
+			
+			<Anchor>//api/name/daynr</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
