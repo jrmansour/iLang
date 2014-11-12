@@ -24,15 +24,12 @@
 		C521CBF218819B2F00475F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CBF118819B2F00475F7F /* Foundation.framework */; };
 		C521CBF418819B2F00475F7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CBF318819B2F00475F7F /* CoreGraphics.framework */; };
 		C521CBF618819B2F00475F7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CBF518819B2F00475F7F /* UIKit.framework */; };
-		C521CBFC18819B2F00475F7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C521CBFA18819B2F00475F7F /* InfoPlist.strings */; };
 		C521CC0418819B2F00475F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C521CC0318819B2F00475F7F /* Images.xcassets */; };
 		C521CC0B18819B2F00475F7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CC0A18819B2F00475F7F /* XCTest.framework */; };
 		C521CC0C18819B2F00475F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CBF118819B2F00475F7F /* Foundation.framework */; };
 		C521CC0D18819B2F00475F7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521CBF518819B2F00475F7F /* UIKit.framework */; };
 		C521CC1718819B2F00475F7F /* finalprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C521CC1618819B2F00475F7F /* finalprojectTests.m */; };
-		CC8325D21A113122008BEB5E /* finalprojectTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC8325D11A113122008BEB5E /* finalprojectTests-Info.plist */; };
 		CC8325D41A1131F7008BEB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8325D31A1131F7008BEB5E /* main.m */; };
-		CC8325D61A113207008BEB5E /* finalproject-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC8325D51A113207008BEB5E /* finalproject-Info.plist */; };
 		CCA1D9171A110F6D008E49AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D90D1A110F6D008E49AD /* AppDelegate.m */; };
 		CCA1D9181A110F6D008E49AD /* DayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D90F1A110F6D008E49AD /* DayInfo.m */; };
 		CCA1D9191A110F6D008E49AD /* iLangDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D9111A110F6D008E49AD /* iLangDatabase.m */; };
@@ -55,74 +52,6 @@
 		CCA1D9461A11110A008E49AD /* iLang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D9441A11110A008E49AD /* iLang.xcdatamodeld */; };
 		CCA1D9711A111131008E49AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D96A1A111131008E49AD /* InfoPlist.strings */; };
 		CCA1D9721A111131008E49AD /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D96E1A111131008E49AD /* Readme.txt */; };
-		CCA1D9751A111147008E49AD /* iLang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D9731A111147008E49AD /* iLang.xcdatamodeld */; };
-		CCA1D9C71A11115F008E49AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9791A11115F008E49AD /* Info.plist */; };
-		CCA1D9C81A11115F008E49AD /* docSet.dsidx in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D97B1A11115F008E49AD /* docSet.dsidx */; };
-		CCA1D9C91A11115F008E49AD /* docSet.dsidx-shm in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D97C1A11115F008E49AD /* docSet.dsidx-shm */; };
-		CCA1D9CA1A11115F008E49AD /* docSet.dsidx-wal in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D97D1A11115F008E49AD /* docSet.dsidx-wal */; };
-		CCA1D9CB1A11115F008E49AD /* docSet.mom in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D97E1A11115F008E49AD /* docSet.mom */; };
-		CCA1D9CC1A11115F008E49AD /* docSet.skidx in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D97F1A11115F008E49AD /* docSet.skidx */; };
-		CCA1D9CD1A11115F008E49AD /* docSet.toc in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9801A11115F008E49AD /* docSet.toc */; };
-		CCA1D9CE1A11115F008E49AD /* docSet.tokencache in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9811A11115F008E49AD /* docSet.tokencache */; };
-		CCA1D9CF1A11115F008E49AD /* AddMoreWordsViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9841A11115F008E49AD /* AddMoreWordsViewController.html */; };
-		CCA1D9D01A11115F008E49AD /* AppDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9851A11115F008E49AD /* AppDelegate.html */; };
-		CCA1D9D11A11115F008E49AD /* CoreDataTableViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9861A11115F008E49AD /* CoreDataTableViewController.html */; };
-		CCA1D9D21A11115F008E49AD /* DayInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9871A11115F008E49AD /* DayInfo.html */; };
-		CCA1D9D31A11115F008E49AD /* EditWordViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9881A11115F008E49AD /* EditWordViewController.html */; };
-		CCA1D9D41A11115F008E49AD /* ExerciseCompletedViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9891A11115F008E49AD /* ExerciseCompletedViewController.html */; };
-		CCA1D9D51A11115F008E49AD /* iLangDatabase.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98A1A11115F008E49AD /* iLangDatabase.html */; };
-		CCA1D9D61A11115F008E49AD /* iLangNavigationController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98B1A11115F008E49AD /* iLangNavigationController.html */; };
-		CCA1D9D71A11115F008E49AD /* MainViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98C1A11115F008E49AD /* MainViewController.html */; };
-		CCA1D9D81A11115F008E49AD /* Word.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98D1A11115F008E49AD /* Word.html */; };
-		CCA1D9D91A11115F008E49AD /* WordListCell.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98E1A11115F008E49AD /* WordListCell.html */; };
-		CCA1D9DA1A11115F008E49AD /* WordListViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D98F1A11115F008E49AD /* WordListViewController.html */; };
-		CCA1D9DB1A11115F008E49AD /* WordPuzzleViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9901A11115F008E49AD /* WordPuzzleViewController.html */; };
-		CCA1D9DC1A11115F008E49AD /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9921A11115F008E49AD /* styles.css */; };
-		CCA1D9DD1A11115F008E49AD /* stylesPrint.css in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9931A11115F008E49AD /* stylesPrint.css */; };
-		CCA1D9DE1A11115F008E49AD /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9951A11115F008E49AD /* hierarchy.html */; };
-		CCA1D9DF1A11115F008E49AD /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9971A11115F008E49AD /* button_bar_background.png */; };
-		CCA1D9E01A11115F008E49AD /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9981A11115F008E49AD /* disclosure.png */; };
-		CCA1D9E11A11115F008E49AD /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9991A11115F008E49AD /* disclosure_open.png */; };
-		CCA1D9E21A11115F008E49AD /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99A1A11115F008E49AD /* library_background.png */; };
-		CCA1D9E31A11115F008E49AD /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99B1A11115F008E49AD /* title_background.png */; };
-		CCA1D9E41A11115F008E49AD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99C1A11115F008E49AD /* index.html */; };
-		CCA1D9E51A11115F008E49AD /* Nodes.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99D1A11115F008E49AD /* Nodes.xml */; };
-		CCA1D9E61A11115F008E49AD /* Tokens1.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99E1A11115F008E49AD /* Tokens1.xml */; };
-		CCA1D9E71A11115F008E49AD /* Tokens10.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D99F1A11115F008E49AD /* Tokens10.xml */; };
-		CCA1D9E81A11115F008E49AD /* Tokens11.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A01A11115F008E49AD /* Tokens11.xml */; };
-		CCA1D9E91A11115F008E49AD /* Tokens12.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A11A11115F008E49AD /* Tokens12.xml */; };
-		CCA1D9EA1A11115F008E49AD /* Tokens13.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A21A11115F008E49AD /* Tokens13.xml */; };
-		CCA1D9EB1A11115F008E49AD /* Tokens2.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A31A11115F008E49AD /* Tokens2.xml */; };
-		CCA1D9EC1A11115F008E49AD /* Tokens3.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A41A11115F008E49AD /* Tokens3.xml */; };
-		CCA1D9ED1A11115F008E49AD /* Tokens4.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A51A11115F008E49AD /* Tokens4.xml */; };
-		CCA1D9EE1A11115F008E49AD /* Tokens5.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A61A11115F008E49AD /* Tokens5.xml */; };
-		CCA1D9EF1A11115F008E49AD /* Tokens6.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A71A11115F008E49AD /* Tokens6.xml */; };
-		CCA1D9F01A11115F008E49AD /* Tokens7.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A81A11115F008E49AD /* Tokens7.xml */; };
-		CCA1D9F11A11115F008E49AD /* Tokens8.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9A91A11115F008E49AD /* Tokens8.xml */; };
-		CCA1D9F21A11115F008E49AD /* Tokens9.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9AA1A11115F008E49AD /* Tokens9.xml */; };
-		CCA1D9F31A11115F008E49AD /* docset-installed.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9AB1A11115F008E49AD /* docset-installed.txt */; };
-		CCA1D9F41A11115F008E49AD /* AddMoreWordsViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9AE1A11115F008E49AD /* AddMoreWordsViewController.html */; };
-		CCA1D9F51A11115F008E49AD /* AppDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9AF1A11115F008E49AD /* AppDelegate.html */; };
-		CCA1D9F61A11115F008E49AD /* CoreDataTableViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B01A11115F008E49AD /* CoreDataTableViewController.html */; };
-		CCA1D9F71A11115F008E49AD /* DayInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B11A11115F008E49AD /* DayInfo.html */; };
-		CCA1D9F81A11115F008E49AD /* EditWordViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B21A11115F008E49AD /* EditWordViewController.html */; };
-		CCA1D9F91A11115F008E49AD /* ExerciseCompletedViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B31A11115F008E49AD /* ExerciseCompletedViewController.html */; };
-		CCA1D9FA1A11115F008E49AD /* iLangDatabase.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B41A11115F008E49AD /* iLangDatabase.html */; };
-		CCA1D9FB1A11115F008E49AD /* iLangNavigationController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B51A11115F008E49AD /* iLangNavigationController.html */; };
-		CCA1D9FC1A11115F008E49AD /* MainViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B61A11115F008E49AD /* MainViewController.html */; };
-		CCA1D9FD1A11115F008E49AD /* Word.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B71A11115F008E49AD /* Word.html */; };
-		CCA1D9FE1A11115F008E49AD /* WordListCell.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B81A11115F008E49AD /* WordListCell.html */; };
-		CCA1D9FF1A11115F008E49AD /* WordListViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9B91A11115F008E49AD /* WordListViewController.html */; };
-		CCA1DA001A11115F008E49AD /* WordPuzzleViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9BA1A11115F008E49AD /* WordPuzzleViewController.html */; };
-		CCA1DA011A11115F008E49AD /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9BC1A11115F008E49AD /* styles.css */; };
-		CCA1DA021A11115F008E49AD /* stylesPrint.css in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9BD1A11115F008E49AD /* stylesPrint.css */; };
-		CCA1DA031A11115F008E49AD /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9BF1A11115F008E49AD /* hierarchy.html */; };
-		CCA1DA041A11115F008E49AD /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C11A11115F008E49AD /* button_bar_background.png */; };
-		CCA1DA051A11115F008E49AD /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C21A11115F008E49AD /* disclosure.png */; };
-		CCA1DA061A11115F008E49AD /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C31A11115F008E49AD /* disclosure_open.png */; };
-		CCA1DA071A11115F008E49AD /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C41A11115F008E49AD /* library_background.png */; };
-		CCA1DA081A11115F008E49AD /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C51A11115F008E49AD /* title_background.png */; };
-		CCA1DA091A11115F008E49AD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA1D9C61A11115F008E49AD /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,74 +117,6 @@
 		CCA1D96B1A111131008E49AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		CCA1D96D1A111131008E49AD /* en */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = en; path = readme.markdown; sourceTree = "<group>"; };
 		CCA1D96F1A111131008E49AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = Readme.txt; sourceTree = "<group>"; };
-		CCA1D9741A111147008E49AD /* iLang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLang.xcdatamodel; sourceTree = "<group>"; };
-		CCA1D9791A11115F008E49AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCA1D97B1A11115F008E49AD /* docSet.dsidx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docSet.dsidx; sourceTree = "<group>"; };
-		CCA1D97C1A11115F008E49AD /* docSet.dsidx-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "docSet.dsidx-shm"; sourceTree = "<group>"; };
-		CCA1D97D1A11115F008E49AD /* docSet.dsidx-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "docSet.dsidx-wal"; sourceTree = "<group>"; };
-		CCA1D97E1A11115F008E49AD /* docSet.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.mom; sourceTree = "<group>"; };
-		CCA1D97F1A11115F008E49AD /* docSet.skidx */ = {isa = PBXFileReference; lastKnownFileType = file; path = docSet.skidx; sourceTree = "<group>"; };
-		CCA1D9801A11115F008E49AD /* docSet.toc */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.toc; sourceTree = "<group>"; };
-		CCA1D9811A11115F008E49AD /* docSet.tokencache */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = docSet.tokencache; sourceTree = "<group>"; };
-		CCA1D9841A11115F008E49AD /* AddMoreWordsViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AddMoreWordsViewController.html; sourceTree = "<group>"; };
-		CCA1D9851A11115F008E49AD /* AppDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AppDelegate.html; sourceTree = "<group>"; };
-		CCA1D9861A11115F008E49AD /* CoreDataTableViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreDataTableViewController.html; sourceTree = "<group>"; };
-		CCA1D9871A11115F008E49AD /* DayInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DayInfo.html; sourceTree = "<group>"; };
-		CCA1D9881A11115F008E49AD /* EditWordViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EditWordViewController.html; sourceTree = "<group>"; };
-		CCA1D9891A11115F008E49AD /* ExerciseCompletedViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExerciseCompletedViewController.html; sourceTree = "<group>"; };
-		CCA1D98A1A11115F008E49AD /* iLangDatabase.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iLangDatabase.html; sourceTree = "<group>"; };
-		CCA1D98B1A11115F008E49AD /* iLangNavigationController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iLangNavigationController.html; sourceTree = "<group>"; };
-		CCA1D98C1A11115F008E49AD /* MainViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MainViewController.html; sourceTree = "<group>"; };
-		CCA1D98D1A11115F008E49AD /* Word.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Word.html; sourceTree = "<group>"; };
-		CCA1D98E1A11115F008E49AD /* WordListCell.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordListCell.html; sourceTree = "<group>"; };
-		CCA1D98F1A11115F008E49AD /* WordListViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordListViewController.html; sourceTree = "<group>"; };
-		CCA1D9901A11115F008E49AD /* WordPuzzleViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordPuzzleViewController.html; sourceTree = "<group>"; };
-		CCA1D9921A11115F008E49AD /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		CCA1D9931A11115F008E49AD /* stylesPrint.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesPrint.css; sourceTree = "<group>"; };
-		CCA1D9951A11115F008E49AD /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
-		CCA1D9971A11115F008E49AD /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
-		CCA1D9981A11115F008E49AD /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
-		CCA1D9991A11115F008E49AD /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
-		CCA1D99A1A11115F008E49AD /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
-		CCA1D99B1A11115F008E49AD /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
-		CCA1D99C1A11115F008E49AD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		CCA1D99D1A11115F008E49AD /* Nodes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Nodes.xml; sourceTree = "<group>"; };
-		CCA1D99E1A11115F008E49AD /* Tokens1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens1.xml; sourceTree = "<group>"; };
-		CCA1D99F1A11115F008E49AD /* Tokens10.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens10.xml; sourceTree = "<group>"; };
-		CCA1D9A01A11115F008E49AD /* Tokens11.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens11.xml; sourceTree = "<group>"; };
-		CCA1D9A11A11115F008E49AD /* Tokens12.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens12.xml; sourceTree = "<group>"; };
-		CCA1D9A21A11115F008E49AD /* Tokens13.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens13.xml; sourceTree = "<group>"; };
-		CCA1D9A31A11115F008E49AD /* Tokens2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens2.xml; sourceTree = "<group>"; };
-		CCA1D9A41A11115F008E49AD /* Tokens3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens3.xml; sourceTree = "<group>"; };
-		CCA1D9A51A11115F008E49AD /* Tokens4.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens4.xml; sourceTree = "<group>"; };
-		CCA1D9A61A11115F008E49AD /* Tokens5.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens5.xml; sourceTree = "<group>"; };
-		CCA1D9A71A11115F008E49AD /* Tokens6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens6.xml; sourceTree = "<group>"; };
-		CCA1D9A81A11115F008E49AD /* Tokens7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens7.xml; sourceTree = "<group>"; };
-		CCA1D9A91A11115F008E49AD /* Tokens8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens8.xml; sourceTree = "<group>"; };
-		CCA1D9AA1A11115F008E49AD /* Tokens9.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tokens9.xml; sourceTree = "<group>"; };
-		CCA1D9AB1A11115F008E49AD /* docset-installed.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "docset-installed.txt"; sourceTree = "<group>"; };
-		CCA1D9AE1A11115F008E49AD /* AddMoreWordsViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AddMoreWordsViewController.html; sourceTree = "<group>"; };
-		CCA1D9AF1A11115F008E49AD /* AppDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AppDelegate.html; sourceTree = "<group>"; };
-		CCA1D9B01A11115F008E49AD /* CoreDataTableViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreDataTableViewController.html; sourceTree = "<group>"; };
-		CCA1D9B11A11115F008E49AD /* DayInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DayInfo.html; sourceTree = "<group>"; };
-		CCA1D9B21A11115F008E49AD /* EditWordViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EditWordViewController.html; sourceTree = "<group>"; };
-		CCA1D9B31A11115F008E49AD /* ExerciseCompletedViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExerciseCompletedViewController.html; sourceTree = "<group>"; };
-		CCA1D9B41A11115F008E49AD /* iLangDatabase.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iLangDatabase.html; sourceTree = "<group>"; };
-		CCA1D9B51A11115F008E49AD /* iLangNavigationController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iLangNavigationController.html; sourceTree = "<group>"; };
-		CCA1D9B61A11115F008E49AD /* MainViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MainViewController.html; sourceTree = "<group>"; };
-		CCA1D9B71A11115F008E49AD /* Word.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Word.html; sourceTree = "<group>"; };
-		CCA1D9B81A11115F008E49AD /* WordListCell.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordListCell.html; sourceTree = "<group>"; };
-		CCA1D9B91A11115F008E49AD /* WordListViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordListViewController.html; sourceTree = "<group>"; };
-		CCA1D9BA1A11115F008E49AD /* WordPuzzleViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WordPuzzleViewController.html; sourceTree = "<group>"; };
-		CCA1D9BC1A11115F008E49AD /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		CCA1D9BD1A11115F008E49AD /* stylesPrint.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesPrint.css; sourceTree = "<group>"; };
-		CCA1D9BF1A11115F008E49AD /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
-		CCA1D9C11A11115F008E49AD /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
-		CCA1D9C21A11115F008E49AD /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
-		CCA1D9C31A11115F008E49AD /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
-		CCA1D9C41A11115F008E49AD /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
-		CCA1D9C51A11115F008E49AD /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
-		CCA1D9C61A11115F008E49AD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,8 +177,6 @@
 		C521CBE518819B2F00475F7F = {
 			isa = PBXGroup;
 			children = (
-				CCA1D9761A11115F008E49AD /* generated-documentation */,
-				CCA1D9731A111147008E49AD /* iLang.xcdatamodeld */,
 				CCA1D9651A111131008E49AD /* en.lproj */,
 				C59C7C1C18846F5800EBD8CE /* Model */,
 				1AB864F81A10EB2200185EC1 /* View */,
@@ -442,185 +301,6 @@
 			path = finalproject/en.lproj;
 			sourceTree = "<group>";
 		};
-		CCA1D9761A11115F008E49AD /* generated-documentation */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9771A11115F008E49AD /* docset */,
-				CCA1D9AB1A11115F008E49AD /* docset-installed.txt */,
-				CCA1D9AC1A11115F008E49AD /* html */,
-			);
-			name = "generated-documentation";
-			path = "../generated-documentation";
-			sourceTree = "<group>";
-		};
-		CCA1D9771A11115F008E49AD /* docset */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9781A11115F008E49AD /* Contents */,
-			);
-			path = docset;
-			sourceTree = "<group>";
-		};
-		CCA1D9781A11115F008E49AD /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9791A11115F008E49AD /* Info.plist */,
-				CCA1D97A1A11115F008E49AD /* Resources */,
-			);
-			path = Contents;
-			sourceTree = "<group>";
-		};
-		CCA1D97A1A11115F008E49AD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D97B1A11115F008E49AD /* docSet.dsidx */,
-				CCA1D97C1A11115F008E49AD /* docSet.dsidx-shm */,
-				CCA1D97D1A11115F008E49AD /* docSet.dsidx-wal */,
-				CCA1D97E1A11115F008E49AD /* docSet.mom */,
-				CCA1D97F1A11115F008E49AD /* docSet.skidx */,
-				CCA1D9801A11115F008E49AD /* docSet.toc */,
-				CCA1D9811A11115F008E49AD /* docSet.tokencache */,
-				CCA1D9821A11115F008E49AD /* Documents */,
-				CCA1D99D1A11115F008E49AD /* Nodes.xml */,
-				CCA1D99E1A11115F008E49AD /* Tokens1.xml */,
-				CCA1D99F1A11115F008E49AD /* Tokens10.xml */,
-				CCA1D9A01A11115F008E49AD /* Tokens11.xml */,
-				CCA1D9A11A11115F008E49AD /* Tokens12.xml */,
-				CCA1D9A21A11115F008E49AD /* Tokens13.xml */,
-				CCA1D9A31A11115F008E49AD /* Tokens2.xml */,
-				CCA1D9A41A11115F008E49AD /* Tokens3.xml */,
-				CCA1D9A51A11115F008E49AD /* Tokens4.xml */,
-				CCA1D9A61A11115F008E49AD /* Tokens5.xml */,
-				CCA1D9A71A11115F008E49AD /* Tokens6.xml */,
-				CCA1D9A81A11115F008E49AD /* Tokens7.xml */,
-				CCA1D9A91A11115F008E49AD /* Tokens8.xml */,
-				CCA1D9AA1A11115F008E49AD /* Tokens9.xml */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		CCA1D9821A11115F008E49AD /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9831A11115F008E49AD /* Classes */,
-				CCA1D9911A11115F008E49AD /* css */,
-				CCA1D9941A11115F008E49AD /* docs */,
-				CCA1D9951A11115F008E49AD /* hierarchy.html */,
-				CCA1D9961A11115F008E49AD /* img */,
-				CCA1D99C1A11115F008E49AD /* index.html */,
-			);
-			path = Documents;
-			sourceTree = "<group>";
-		};
-		CCA1D9831A11115F008E49AD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9841A11115F008E49AD /* AddMoreWordsViewController.html */,
-				CCA1D9851A11115F008E49AD /* AppDelegate.html */,
-				CCA1D9861A11115F008E49AD /* CoreDataTableViewController.html */,
-				CCA1D9871A11115F008E49AD /* DayInfo.html */,
-				CCA1D9881A11115F008E49AD /* EditWordViewController.html */,
-				CCA1D9891A11115F008E49AD /* ExerciseCompletedViewController.html */,
-				CCA1D98A1A11115F008E49AD /* iLangDatabase.html */,
-				CCA1D98B1A11115F008E49AD /* iLangNavigationController.html */,
-				CCA1D98C1A11115F008E49AD /* MainViewController.html */,
-				CCA1D98D1A11115F008E49AD /* Word.html */,
-				CCA1D98E1A11115F008E49AD /* WordListCell.html */,
-				CCA1D98F1A11115F008E49AD /* WordListViewController.html */,
-				CCA1D9901A11115F008E49AD /* WordPuzzleViewController.html */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		CCA1D9911A11115F008E49AD /* css */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9921A11115F008E49AD /* styles.css */,
-				CCA1D9931A11115F008E49AD /* stylesPrint.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		CCA1D9941A11115F008E49AD /* docs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = docs;
-			sourceTree = "<group>";
-		};
-		CCA1D9961A11115F008E49AD /* img */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9971A11115F008E49AD /* button_bar_background.png */,
-				CCA1D9981A11115F008E49AD /* disclosure.png */,
-				CCA1D9991A11115F008E49AD /* disclosure_open.png */,
-				CCA1D99A1A11115F008E49AD /* library_background.png */,
-				CCA1D99B1A11115F008E49AD /* title_background.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		CCA1D9AC1A11115F008E49AD /* html */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9AD1A11115F008E49AD /* Classes */,
-				CCA1D9BB1A11115F008E49AD /* css */,
-				CCA1D9BE1A11115F008E49AD /* docs */,
-				CCA1D9BF1A11115F008E49AD /* hierarchy.html */,
-				CCA1D9C01A11115F008E49AD /* img */,
-				CCA1D9C61A11115F008E49AD /* index.html */,
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		CCA1D9AD1A11115F008E49AD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9AE1A11115F008E49AD /* AddMoreWordsViewController.html */,
-				CCA1D9AF1A11115F008E49AD /* AppDelegate.html */,
-				CCA1D9B01A11115F008E49AD /* CoreDataTableViewController.html */,
-				CCA1D9B11A11115F008E49AD /* DayInfo.html */,
-				CCA1D9B21A11115F008E49AD /* EditWordViewController.html */,
-				CCA1D9B31A11115F008E49AD /* ExerciseCompletedViewController.html */,
-				CCA1D9B41A11115F008E49AD /* iLangDatabase.html */,
-				CCA1D9B51A11115F008E49AD /* iLangNavigationController.html */,
-				CCA1D9B61A11115F008E49AD /* MainViewController.html */,
-				CCA1D9B71A11115F008E49AD /* Word.html */,
-				CCA1D9B81A11115F008E49AD /* WordListCell.html */,
-				CCA1D9B91A11115F008E49AD /* WordListViewController.html */,
-				CCA1D9BA1A11115F008E49AD /* WordPuzzleViewController.html */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		CCA1D9BB1A11115F008E49AD /* css */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9BC1A11115F008E49AD /* styles.css */,
-				CCA1D9BD1A11115F008E49AD /* stylesPrint.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		CCA1D9BE1A11115F008E49AD /* docs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = docs;
-			sourceTree = "<group>";
-		};
-		CCA1D9C01A11115F008E49AD /* img */ = {
-			isa = PBXGroup;
-			children = (
-				CCA1D9C11A11115F008E49AD /* button_bar_background.png */,
-				CCA1D9C21A11115F008E49AD /* disclosure.png */,
-				CCA1D9C31A11115F008E49AD /* disclosure_open.png */,
-				CCA1D9C41A11115F008E49AD /* library_background.png */,
-				CCA1D9C51A11115F008E49AD /* title_background.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -665,7 +345,7 @@
 		C521CBE618819B2F00475F7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jahangir Rostamzad";
 				TargetAttributes = {
 					C521CBED18819B2F00475F7F = {
@@ -705,82 +385,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA1D9E21A11115F008E49AD /* library_background.png in Resources */,
-				CCA1D9D91A11115F008E49AD /* WordListCell.html in Resources */,
-				CCA1DA061A11115F008E49AD /* disclosure_open.png in Resources */,
-				CCA1D9D01A11115F008E49AD /* AppDelegate.html in Resources */,
-				CCA1D9F91A11115F008E49AD /* ExerciseCompletedViewController.html in Resources */,
-				CCA1D9E41A11115F008E49AD /* index.html in Resources */,
-				CCA1D9CD1A11115F008E49AD /* docSet.toc in Resources */,
-				CCA1DA051A11115F008E49AD /* disclosure.png in Resources */,
-				CCA1D9FA1A11115F008E49AD /* iLangDatabase.html in Resources */,
-				CCA1DA001A11115F008E49AD /* WordPuzzleViewController.html in Resources */,
-				CCA1D9F31A11115F008E49AD /* docset-installed.txt in Resources */,
-				CCA1D9FD1A11115F008E49AD /* Word.html in Resources */,
-				C521CBFC18819B2F00475F7F /* InfoPlist.strings in Resources */,
-				CCA1D9FC1A11115F008E49AD /* MainViewController.html in Resources */,
-				CCA1DA041A11115F008E49AD /* button_bar_background.png in Resources */,
-				CC8325D61A113207008BEB5E /* finalproject-Info.plist in Resources */,
-				CCA1D9F01A11115F008E49AD /* Tokens7.xml in Resources */,
-				CCA1D9E91A11115F008E49AD /* Tokens12.xml in Resources */,
-				CCA1DA091A11115F008E49AD /* index.html in Resources */,
-				CCA1D9E11A11115F008E49AD /* disclosure_open.png in Resources */,
-				CCA1D9CE1A11115F008E49AD /* docSet.tokencache in Resources */,
 				CCA1D9711A111131008E49AD /* InfoPlist.strings in Resources */,
 				C521CC0418819B2F00475F7F /* Images.xcassets in Resources */,
-				CCA1DA031A11115F008E49AD /* hierarchy.html in Resources */,
-				CCA1D9DE1A11115F008E49AD /* hierarchy.html in Resources */,
-				CCA1D9E81A11115F008E49AD /* Tokens11.xml in Resources */,
-				CCA1D9CA1A11115F008E49AD /* docSet.dsidx-wal in Resources */,
-				CCA1D9F81A11115F008E49AD /* EditWordViewController.html in Resources */,
-				CCA1D9D31A11115F008E49AD /* EditWordViewController.html in Resources */,
-				CCA1DA021A11115F008E49AD /* stylesPrint.css in Resources */,
-				CCA1D9FF1A11115F008E49AD /* WordListViewController.html in Resources */,
-				CCA1D9CC1A11115F008E49AD /* docSet.skidx in Resources */,
-				CCA1D9FE1A11115F008E49AD /* WordListCell.html in Resources */,
 				CCA1D9221A110F7E008E49AD /* iLang.storyboard in Resources */,
-				CCA1D9ED1A11115F008E49AD /* Tokens4.xml in Resources */,
-				CCA1D9E71A11115F008E49AD /* Tokens10.xml in Resources */,
-				CCA1D9D11A11115F008E49AD /* CoreDataTableViewController.html in Resources */,
-				CCA1D9E51A11115F008E49AD /* Nodes.xml in Resources */,
-				CCA1DA071A11115F008E49AD /* library_background.png in Resources */,
 				CCA1D91A1A110F6D008E49AD /* InitialWordList.plist in Resources */,
-				CCA1D9F41A11115F008E49AD /* AddMoreWordsViewController.html in Resources */,
-				CCA1D9EA1A11115F008E49AD /* Tokens13.xml in Resources */,
-				CCA1D9E01A11115F008E49AD /* disclosure.png in Resources */,
-				CCA1D9CF1A11115F008E49AD /* AddMoreWordsViewController.html in Resources */,
-				CCA1D9EC1A11115F008E49AD /* Tokens3.xml in Resources */,
-				CCA1D9CB1A11115F008E49AD /* docSet.mom in Resources */,
-				CCA1D9DC1A11115F008E49AD /* styles.css in Resources */,
 				CCA1D9721A111131008E49AD /* Readme.txt in Resources */,
-				CCA1DA011A11115F008E49AD /* styles.css in Resources */,
-				CCA1D9EB1A11115F008E49AD /* Tokens2.xml in Resources */,
 				CCA1D9231A110F7E008E49AD /* iPhone.storyboard in Resources */,
-				CCA1D9D41A11115F008E49AD /* ExerciseCompletedViewController.html in Resources */,
-				CCA1D9E31A11115F008E49AD /* title_background.png in Resources */,
-				CCA1D9FB1A11115F008E49AD /* iLangNavigationController.html in Resources */,
-				CCA1D9F61A11115F008E49AD /* CoreDataTableViewController.html in Resources */,
-				CCA1D9DB1A11115F008E49AD /* WordPuzzleViewController.html in Resources */,
-				CCA1D9D71A11115F008E49AD /* MainViewController.html in Resources */,
-				CCA1D9C71A11115F008E49AD /* Info.plist in Resources */,
-				CCA1D9F11A11115F008E49AD /* Tokens8.xml in Resources */,
-				CCA1D9DD1A11115F008E49AD /* stylesPrint.css in Resources */,
-				CCA1D9F21A11115F008E49AD /* Tokens9.xml in Resources */,
-				CCA1D9D81A11115F008E49AD /* Word.html in Resources */,
-				CCA1D9E61A11115F008E49AD /* Tokens1.xml in Resources */,
-				CCA1D9EE1A11115F008E49AD /* Tokens5.xml in Resources */,
-				CCA1D9C91A11115F008E49AD /* docSet.dsidx-shm in Resources */,
-				CCA1D9EF1A11115F008E49AD /* Tokens6.xml in Resources */,
-				CCA1D9D61A11115F008E49AD /* iLangNavigationController.html in Resources */,
-				CCA1D9D21A11115F008E49AD /* DayInfo.html in Resources */,
-				CCA1D9DF1A11115F008E49AD /* button_bar_background.png in Resources */,
-				CCA1D9D51A11115F008E49AD /* iLangDatabase.html in Resources */,
-				CCA1D9C81A11115F008E49AD /* docSet.dsidx in Resources */,
-				CCA1D9DA1A11115F008E49AD /* WordListViewController.html in Resources */,
-				CCA1DA081A11115F008E49AD /* title_background.png in Resources */,
 				CCA1D9251A110F7E008E49AD /* WordListCell.xib in Resources */,
-				CCA1D9F51A11115F008E49AD /* AppDelegate.html in Resources */,
-				CCA1D9F71A11115F008E49AD /* DayInfo.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,7 +399,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC8325D21A113122008BEB5E /* finalprojectTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +432,6 @@
 				CCA1D93C1A110F92008E49AD /* ExerciseCompletedViewController.m in Sources */,
 				CCA1D93A1A110F92008E49AD /* CoreDataTableViewController.m in Sources */,
 				CCA1D9181A110F6D008E49AD /* DayInfo.m in Sources */,
-				CCA1D9751A111147008E49AD /* iLang.xcdatamodeld in Sources */,
 				CCA1D9391A110F92008E49AD /* AddMoreWordsViewController.m in Sources */,
 				CCA1D9171A110F6D008E49AD /* AppDelegate.m in Sources */,
 				CCA1D91C1A110F6D008E49AD /* Word+Util.m in Sources */,
@@ -908,7 +517,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -948,7 +556,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1017,7 +624,6 @@
 		C521CC1E18819B2F00475F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLang.app/iLang";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1040,7 +646,6 @@
 		C521CC1F18819B2F00475F7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iLang.app/iLang";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1106,17 +711,6 @@
 			currentVersion = CCA1D9451A11110A008E49AD /* iLang.xcdatamodel */;
 			name = iLang.xcdatamodeld;
 			path = Model/iLang.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		CCA1D9731A111147008E49AD /* iLang.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CCA1D9741A111147008E49AD /* iLang.xcdatamodel */,
-			);
-			currentVersion = CCA1D9741A111147008E49AD /* iLang.xcdatamodel */;
-			name = iLang.xcdatamodeld;
-			path = finalproject/Model/iLang.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
